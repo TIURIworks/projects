@@ -16,4 +16,4 @@ jobs:
         id: tailscale
         uses: tailscale/github-action@main
         with:
-          authkey: ${{ secrets.tskey-auth-konnJd2CNTRL-xvHpXhz2AhKHwhYBbVumcK5ULeXbaeiT1 }}
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
