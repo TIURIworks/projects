@@ -1,10 +1,13 @@
 version = 1
 
 [[analyzers]]
+name = "secrets"
+
+[[analyzers]]
 name = "test-coverage"
 
 [[analyzers]]
-name = "secrets"
+name = "php"
 
 [[analyzers]]
 name = "javascript"
@@ -15,6 +18,12 @@ name = "javascript"
     "vue",
     "angularjs"
   ]
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "11"
 
 [[analyzers]]
 name = "docker"
